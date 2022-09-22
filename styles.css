@@ -1,0 +1,100 @@
+*/*{
+    padding: 0;
+}*/
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 20px;
+    font-weight: normal;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif*/;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 15px rgba(53, 14, 14, 0);
+}
+
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*letter-spacing: 10px;*/
+    /*word-spacing: 10px;*/
+}
+
+.container{
+    max-width: 750px;
+    padding: 40px;
+    border: 20px;
+    margin: auto;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a :active {
+    color: green;
+}
+
+a :visited{
+    color: gray;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.card{
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+h1 {
+    margin: 0px;
+    color: #00539F;;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+/*.social{
+    padding: 15px 40px;
+    border: 5px solid rgb(255, 210, 210);
+    margin: 5px;
+}*/
+
+/*.box-model > div{
+    float: left;
+    background-color: black;
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box;
+}*/
